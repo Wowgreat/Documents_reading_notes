@@ -40,10 +40,19 @@
 
 ## Executing Multi-Project Builds
 
-> **Note: ** Build files might not be called `build,gradle`.
+> **Note: ** Build files might not be called `build.gradle`.
 
 
 
 
 
-### 
+## Testing Java & JVM Projects
+
+
+
+## Managing Dependencies
+
+
+
+## JVM Plugins
+
