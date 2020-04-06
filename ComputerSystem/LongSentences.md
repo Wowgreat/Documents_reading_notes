@@ -1,0 +1,2 @@
+- **When these instructions have registers as destinations, two conventions arise for what happens to the remaining bytes in the register for instructions that generate less than 8 bytes.**
+- 
