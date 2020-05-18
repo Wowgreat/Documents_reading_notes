@@ -38,7 +38,7 @@
 
   - （此步骤执行前需进行**解锁BootLoader**，由于这不是本文重点关注的内容，所以这里不多做介绍，如果很多同学不知道，以后可以出一篇文章）待手机关闭后，同时按住**电源键+音量 - **进入**fastboot**模式
 
-    ![](pics/1.png)
+    ![](https://s1.ax1x.com/2020/05/18/YfrA78.png)
 
   - 此时执行,在**platform-tools**目录下执行
 
@@ -50,19 +50,19 @@
 
   - 此时手机会重启，这时同时按住 **电源键+音量 +**即可进入 **recovery** 模式，（本文选择的是**英文版**，你也可以选择中文版）
 
-    ![](pics/2.jpg)
+    ![](https://s1.ax1x.com/2020/05/18/YfrehQ.jpg)
 
-    ![](pics/3.jpg)
+    ![](https://s1.ax1x.com/2020/05/18/YfrZtg.jpg)
 
   
 
   - 此时点击 **Wipe** -> **Advanced Wipe** ->  **选择需要Wipe的分区，如下图** -> 滑动 并执行Wipe
 
-    ![](pics/4.jpg)
+    ![](https://s1.ax1x.com/2020/05/18/YfrVAS.jpg)
 
-    ![](pics/5.jpg)
+    ![](https://s1.ax1x.com/2020/05/18/Yfrk0f.jpg)
 
-    ![](pics/6.jpg)
+    ![](https://s1.ax1x.com/2020/05/18/Yfrnpj.jpg)
 
   - 此时我们退回到菜单栏，并连接 usb数据线
 
@@ -79,16 +79,14 @@
 
   - 此时点击 Install -> 选择 安装包 -> 执行安装系统
 
-    ![](pics/3.jpg)
-
-    ![](pics/7.jpg)
+    ![](https://s1.ax1x.com/2020/05/18/YfrKcn.jpg)
 
   - 待完成之后执行重启命令就可以了，重启后是以下的样子
 
-    ![](pics/8.jpg)
+    ![](https://s1.ax1x.com/2020/05/18/Yfru1s.jpg)
 
   - 最后会进入系统初始化设置流程，类似于你买了个新的小米，经过一系列设置，就进入系统了，这个系统目前是比较简陋的，仅有android远程系统的部分软件（APP）
-    ![](pics/9.jpg)
+    ![](https://s1.ax1x.com/2020/05/18/YfrMXq.jpg)
 
 - 总结：此时系统比较简陋，接下来将带领大家为这个操作系统安装 google套件（google play，google服务框架，google服务等）。但限于文章篇幅就不在本文重详解，留到下一篇文章中为大家呈现。关注 **直截了当**公众号，及时获取 为android lineageos刷入google套件的文章。
 
