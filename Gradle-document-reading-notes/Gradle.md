@@ -18,6 +18,8 @@ Gradle它运行在JVM上，并且需要用多个支持库，这要求一段不�
 
 
 
+
+
 #### 禁用Daemon
 
 在 `«USER_HOME»/.gradle/gradle.properties`，加上这样一行
@@ -106,9 +108,30 @@ task(copy, type: Copy) {
 
 
 
+#### 自定义Plugins
+
+```groovy
+apply plugin: GreetingPlugin
+class GreetingPlugin implements Plugin<Project> {
+   void apply(Project project) {
+      project.task('hello') << {
+         println "Hello from the GreetingPlugin"
+      }
+   }
+}
+```
 
 
 
+
+
+#### Gradle Plugins介绍
+
+使用一个插件可以扩展项目的能力。它可以做以下事情：
+
+- 扩展Gradle模型，例如增加新的DSL元素
+- 通过约定配置项目
+- 应用指定的配置
 
 
 
