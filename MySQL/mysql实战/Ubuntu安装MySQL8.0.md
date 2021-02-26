@@ -150,7 +150,7 @@ mysql> exit
 
 ##### 文中涉及的软件包获取
 
-![直截了当公众号](https://mmbiz.qpic.cn/mmbiz_jpg/L7cicuPc0KPkX7V2yEib4goicPN5fwqRBhBRgaFNETIh2zh49PToBhzSxsbJxWRRDugRJcI6ClKiczgfVEVaKpOeWg/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](http://imgs.maopuyu.com/image-20210223164949346.png)
 
 长按扫码关注
 
