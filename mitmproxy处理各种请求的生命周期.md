@@ -36,8 +36,6 @@ def error(self, flow: mitmproxy.http.HTTPFlow):
 
 (Called when) 发生了一个 HTTP 错误。比如无效的服务端响应、连接断开等。注意与“有效的 HTTP 错误返回”不是一回事，后者是一个正确的服务端响应，只是 HTTP code 表示错误而已。
 
-（好了，你可以跳到[示例](https://blog.wolfogre.com/posts/usage-of-mitmproxy/#示例)了。）
-
 #### 2. 针对 TCP 生命周期
 
 ```python
@@ -165,3 +163,4 @@ def update(self, flows: typing.Sequence[mitmproxy.flow.Flow]):
 ```
 
 (Called when) 一个或多个 flow 对象被修改了，通常是来自一个不同的 addon。
+
