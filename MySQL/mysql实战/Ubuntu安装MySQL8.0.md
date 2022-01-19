@@ -155,5 +155,11 @@ mysql> exit
 长按扫码关注
 
 - 回复 mysqlapt 获取 mysql-apt-config_0.8.16-1_all.deb
-
 - 回复 navicat 获取 navicat 安装包和注册机，激活教程  https://www.bilibili.com/video/BV12K41157iR
+
+#### sudo mysql 强制登录
+
+```mysql
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'insert_password';
+```
+
