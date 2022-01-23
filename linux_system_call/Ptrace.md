@@ -1,6 +1,6 @@
 ### 使用Ptrace进行进程跟踪
 
-[原文地址]([Process Tracing Using Ptrace LG #81 (tldp.org)](https://tldp.org/LDP/LG/issue81/sandeep.html))
+[原文地址](https://tldp.org/LDP/LG/issue81/sandeep.html)
 
 **Ptrace**对于调试类程序例如**gdb**是非常关键的。但目前为止它的特性都没有被很好的记录，除非你认为最好的文档是内核（一般指linux kernel或者unix kernel）文档本身。现在我将尝试演示**ptrace**是如何被用来实现一些在类似GDB工具中的功能的。
 
@@ -23,4 +23,4 @@ Ptrace() 的原型如下。
 long int ptrace(enum __ptrace_request request, pid_t pid, void * addr, void * data)
 ```
 
-四个参数中，**request**的值决定要做什么。**Pid**就是进程ID。**Addr**是偏移量（被跟踪进程在**用户空间**中将数据写入的位置）
+四个参数中，**request**的值决定要做什么。**Pid**就是进程ID。**Addr**是被追踪进程用户空间中的偏移量，是程序被指示写入**Data**的位置。
