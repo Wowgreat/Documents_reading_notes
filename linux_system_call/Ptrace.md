@@ -23,4 +23,9 @@ Ptrace() 的原型如下。
 long int ptrace(enum __ptrace_request request, pid_t pid, void * addr, void * data)
 ```
 
-四个参数中，**request**的值决定要做什么。**Pid**就是进程ID。**Addr**是被追踪进程用户空间中的偏移量，是程序被指示写入**Data**的位置。
+四个参数中，**request**的值决定要做什么。**Pid**就是进程ID。**Addr**是被追踪进程用户空间中的偏移量，是程序被指示写入**Data**的位置。在被跟踪进程的用户空间中读取字的位置的偏移量，作为这个方法的调用返回。
+
+父进程可以分支一个子进程，并且通过设置 **request** 的值为 *PTRACE_TRACEME*来跟踪这个子进程。父进程也可以通过 *PTRACE_ATTACH* 来跟踪一个已经存在的进程。关于**request**不同的值我们将在下面进行讨论。
+
+
+
