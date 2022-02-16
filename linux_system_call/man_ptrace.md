@@ -1,5 +1,3 @@
-
-
 [英文a原文](https://man7.org/linux/man-pages/man2/ptrace.2.html)
 
 **ptrace**是**process trace**的简写
@@ -60,6 +58,4 @@ ptrace(PTRACE_foo, pid, ...)
 #### PTRACE_GETREGS, PTRACE_GETFPREGS
 
 复制被跟踪者的通用寄存器或者浮点寄存器分别到跟踪者的地址*data*。 关于这个数据的格式，请看<sys/user.h>的信息。请注意，SPARC系统的*data*和*addr*的含义是相反的；也就是说，数据被忽略，寄存器被复制到地址*addr*。PTRACE_GETREGS和PTRACE_GETFPREGS并不存在于所有的架构上。
-
-
 
