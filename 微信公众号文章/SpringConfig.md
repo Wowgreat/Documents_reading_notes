@@ -1,4 +1,4 @@
-### 有趣的Spring Boot Config
+### 有趣的SpringBoot Config
 
 ##### 实验环境
 
@@ -6,10 +6,11 @@
 - SpringBoot 2.6.3
 - Lombok
 - spring-boot-configuration-processor
+- 项目源码：[neo/springbootdemo (gitee.com)](https://gitee.com/dashugan/springbootdemo)
 
 ##### 初始化一个SpringBoot项目
 
-我这里是直接从[Spring Initializr](https://start.spring.io/)网站初始化并下载的。然后用IDEA打开，具体过程蜗居不再赘述了。要注意的是，IDEA初次打开一个初始化的SpringBoot项目时，由于某些原因（你懂的），需要花点时间将依赖下载下来。
+我这里是直接从[Spring Initializr](https://start.spring.io/)网站初始化并下载的。然后用IDEA打开，具体过程w不再赘述了。要注意的是，IDEA初次打开一个初始化的SpringBoot项目时，由于某些原因（你懂的），需要花点时间将依赖下载下来。
 
 ##### 安装Lombok
 
@@ -264,3 +265,7 @@ my:
     ![image-20220217174841161](https://maopuyufile-1304875256.cos.ap-shanghai.myqcloud.com/markdown/image-20220217174841161.png)
   
     至此SpringBoot配置方面的知识就算带大家入门了。
+    
+    微信扫描下方二维码，每天进步一点点:
+    ![qrcode_for_gh_1f012feb4af9_258](https://maopuyufile-1304875256.cos.ap-shanghai.myqcloud.com/markdown/qrcode_for_gh_1f012feb4af9_258.jpg)
+
